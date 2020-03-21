@@ -69,11 +69,13 @@ body {
 /* ============== Section Two =========== */
 #previewlabsectiontwo {
     color: black;
-    background-color: ;
+    background-color: white;
+    margin: 0px;
 }
 
 #previewlabsectiontwo .container  {
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 #previewlabsectiontwo .col-lg h2 {
@@ -92,8 +94,7 @@ body {
     background-color: black;
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    
+    border-radius: 50%; 
 }
 
 #previewlabsectiontwo .downbtn a {
@@ -108,7 +109,9 @@ body {
     padding-top: 10px;
 }
 
-/* ============== Section one style ends =========== */
+/* ============== Section two style ends =========== */
+
+/* ============== Section three style  =========== */
 #services {
     background-color: black;
     color: white;
@@ -130,6 +133,7 @@ body {
     width: 250px;
 }
 
+
 #services .container h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 20px;
@@ -138,7 +142,11 @@ body {
     
 }
 
+#services .sectiontwoends {
+    border-style: none;
+    margin: 0px 0px;
+}
 #services .sectiontwoends img{
-    margin: 0px;
+    border-style: none;
     width: 100%;
 }
