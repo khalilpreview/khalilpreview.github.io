@@ -1,0 +1,144 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    
+    background-color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.navbar {
+    color: white;
+    background-color: black;
+}
+
+.navbar a {
+    color: white;  
+}
+
+.navbar a:hover {
+    color: #dfe6e9;
+    text-decoration: underline;
+}
+
+/* ============== Section one =========== */
+#previewlabhome {
+    padding-top: auto;
+    background-color: black;
+    color :white;
+} 
+
+
+#previewlabhome .text-one {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#previewlabhome .text-one h1 {
+   font-weight: 600;
+}
+
+#previewlabhome .downbtn {
+    margin-top: 50px;
+    color:black;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+
+#previewlabhome .downbtn a {
+    color: black;
+}
+
+#previewlabhome .downbtn a:hover {
+    color: black;
+}
+
+#previewlabhome .downbtn .centericon {
+    padding-top: 10px;
+}
+
+/* ============== Section one style ends =========== */
+
+
+/* ============== Section Two =========== */
+#previewlabsectiontwo {
+    color: black;
+    background-color: ;
+}
+
+#previewlabsectiontwo .container  {
+    padding-top: 20px;
+}
+
+#previewlabsectiontwo .col-lg h2 {
+    font-weight: 800;
+    text-shadow: 2px 2px 4px #ff7675;
+    
+}
+
+#previewlabsectiontwo .col-lg h4 {
+    margin-bottom: 0px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#previewlabsectiontwo .downbtn {
+    color:white;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+
+#previewlabsectiontwo .downbtn a {
+    color: white;
+}
+
+#previewlabsectiontwo .downbtn a:hover {
+    color: white;
+}
+
+#previewlabsectiontwo .downbtn .centericon {
+    padding-top: 10px;
+}
+
+/* ============== Section one style ends =========== */
+#services {
+    background-color: black;
+    color: white;
+}
+
+
+#services .container .row {
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+#services .col-lg .card {
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+#services .col-lg .card img {
+    padding-left: 50px;
+    width: 250px;
+}
+
+#services .container h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    font-weight: 700;
+    text-shadow: 2px 1px 4px #55efc4;
+    
+}
+
+#services .sectiontwoends img{
+    margin: 0px;
+    width: 100%;
+}
