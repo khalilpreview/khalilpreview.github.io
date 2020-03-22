@@ -22,7 +22,7 @@
   </head>
 
   <body>
-    
+
       <head>
       <!-- Nav bar start -->
       <nav class="navbar navbar-expand">
@@ -37,7 +37,16 @@
       <!-- Nav bar ends -->
 
     </head>
-
+    <div class="fullpageloader" >
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+      <div class="ball"></div>
+    </div>
+    
 
     <!-- home section start --> 
     <section id="previewlabhome">
@@ -287,6 +296,8 @@
 </section>
 
 
+
+
 <!-- section three ends  --> 
 <!--================================================================================--> 
 
@@ -309,6 +320,12 @@
       AOS.init({
         easing: 'ease-in-out-sine'
       })
+    </script>
+
+    <script>
+      $(window).on("load",function(){
+      $(".fullpageloader").fadeOut("slow");
+      });
     </script>
     
 
