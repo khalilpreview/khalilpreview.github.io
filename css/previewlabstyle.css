@@ -77,15 +77,14 @@ body {
     padding-bottom: 10px;
 }
 
-#previewlabsectiontwo .col-lg h2 {
-    font-weight: 800;
-    text-shadow: 2px 2px 4px #ff7675;
+#previewlabsectiontwo .container .row .col-lg h1 {
+    font-weight: 900;
     
 }
 
 #previewlabsectiontwo .col-lg h4 {
     margin-bottom: 0px;
-    font-family: "Times New Roman", Times, serif;
+   
 }
 
 #previewlabsectiontwo .downbtn {
@@ -141,6 +140,16 @@ body {
     border-style: none;
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
 
 /* ----------- full page loader ---------- */
 .ball {
@@ -280,3 +289,4 @@ body {
     background-color: black;
     position: absolute;
 }
+/* ----------- full page loader styling ends ---------- */
