@@ -9,6 +9,7 @@ body {
     align-content: center;
 }
 
+/* == navbar styling ==*/
 .navbar {
     color: white;
     background-color: black;
@@ -29,6 +30,9 @@ body {
 .navbar-btn-paddig {
 	padding-right: 10px;
 }
+/* == navbar styling ends ==*/
+
+
 /* ============== Section one =========== */
 #previewlabhome {
     padding-top: auto;
@@ -36,7 +40,9 @@ body {
     color :white;
 } 
 
-
+#previewlabhome .container {
+	padding-top: 25px;
+}
 #previewlabhome .text-one {
     padding-top: 50px;
     text-align: center;
@@ -150,9 +156,20 @@ body {
 
 /* ============== Section three style ends  =========== */
 
+/* ============== Section four style start =========== */
 
-
-
+#aboutus {
+	color: black;
+    background-color: white;
+    margin: 0px 0px;
+}
+#aboutus .sectionthreends {
+	margin: 0px 0px;
+	width: 100%;
+}
+#aboutus .sectionthreends img {
+    width: 100%;
+}
 
 
 
@@ -296,3 +313,24 @@ body {
     position: fixed;
 }
 /* ----------- full page loader styling ends ---------- */
+
+
+
+/*===== footer styling start here =====*/
+.footer {
+	margin: 0px;
+	text-align: center;
+	color:   #000000;
+	background-color: #white;
+}
+.footer .container {
+	
+	text-align: center;
+	font-size: 20px;
+	font-weight: 100;
+}
+.footer .col-md p {
+	font-size: 25px;
+	font-weight: 200;
+}
+  /*===== footer styling ends here =====*/
