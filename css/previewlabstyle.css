@@ -23,6 +23,12 @@ body {
     text-decoration: underline;
 }
 
+.navbar ul li .nav-item {
+	padding-left: 10px;
+}
+.navbar-btn-paddig {
+	padding-right: 10px;
+}
 /* ============== Section one =========== */
 #previewlabhome {
     padding-top: auto;
@@ -142,7 +148,7 @@ body {
 }
 
 
-
+/* ============== Section three style ends  =========== */
 
 
 
