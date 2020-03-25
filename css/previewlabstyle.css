@@ -218,6 +218,7 @@ body {
   
 #aboutus .flexcenter {
 	padding-top: 100px;
+	padding-left: 50px;
 	text-align: center;
 	background-image: url("blob-shape.svg");
 	background-position: center;
@@ -227,9 +228,10 @@ body {
 
 #aboutus .flexcenter h3 {
     color: white;
-	font-family: Arial, Helvetica, sans-serif !important;
-	font-size: 30px !important;
+	font-family: Blippo, fantasy !important;
+	font-size: 28px !important;
 	font-weight: 700 !important;
+	
 }
 
 
