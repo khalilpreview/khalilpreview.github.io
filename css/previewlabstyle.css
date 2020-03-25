@@ -10,26 +10,18 @@ body {
 }
 
 /* == navbar styling ==*/
-.navbar {
-    color: white;
-    background-color: black;
+ .bg-dark {
+	background-color: black !important;
 }
-
-.navbar a {
-    color: white;  
-}
-
-.navbar a:hover {
-    color: #dfe6e9;
-    text-decoration: underline;
-}
-
-.navbar ul li .nav-item {
-	padding-left: 10px;
+ .nav-link  {
+	 color: white !important;
+    font-size: 20px;
 }
 .navbar-btn-paddig {
-	padding-right: 10px;
+	padding-top: 5px;
+	padding-right: 5px;
 }
+
 /* == navbar styling ends ==*/
 
 
@@ -43,6 +35,19 @@ body {
 #previewlabhome .container {
 	padding-top: 25px;
 }
+
+#previewlabhome .container .row {
+	padding-top: 25px;
+}
+
+#previewlabhome .container .row .col-lg {
+	padding-top: 25px;
+}
+
+#previewlabhome .container .row .col {
+	padding-top: 25px;
+}
+
 #previewlabhome .text-one {
     padding-top: 50px;
     text-align: center;
@@ -81,11 +86,13 @@ body {
 #previewlabsectiontwo {
     color: black;
     background-color: white;
-    margin: 0px;
+	margin: 0px 0px;
+
 }
 
+
 #previewlabsectiontwo .container  {
-    padding-top: 20px;
+    top: 0px;
     padding-bottom: 10px;
 }
 
@@ -119,6 +126,11 @@ body {
     padding-top: 10px;
 }
 
+#previewlabsectiontwo svg {
+	top:0;
+}
+
+
 /* ============== Section two style ends =========== */
 
 /* ============== Section three style  =========== */
@@ -126,7 +138,6 @@ body {
     background-color: black;
     color: white;
 }
-
 
 #services .container .row {
     padding-top: 50px;
@@ -143,33 +154,222 @@ body {
     width: 250px;
 }
 
-
-#services .sectiontwoends {
-    border-style: none;
-    margin: 0px 0px;
+#services .downbtn {
+    margin-top: 50px;
+    color:black;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
 }
-#services .sectiontwoends img{
-    border-style: none;
-    width: 100%;
+
+#services .downbtn a {
+    color: black;
 }
 
+#services .downbtn a:hover {
+    color: black;
+}
+
+#services .downbtn .centericon {
+    padding-top: 10px;
+}
 
 /* ============== Section three style ends  =========== */
+
+
+
 
 /* ============== Section four style start =========== */
 
 #aboutus {
+	background-color: white;
 	color: black;
-    background-color: white;
-    margin: 0px 0px;
-}
-#aboutus .sectionthreends {
 	margin: 0px 0px;
+}
+
+
+#aboutus  h1 {
+	margin: 0px 0px;
+	font-size: 50px;
+	font-weight: 600;
+}
+
+#aboutus  .upbtn {
+    margin-top: 50px;
+    color:white;
+    background-color: #636e72;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;   
+}
+
+#aboutus  .upbtn a {
+	font-size: 30px;
+    color: white;
+}
+
+#aboutus  .upbtn a:hover {
+    color: white;
+}
+
+#aboutus  .upbtn .centericon {
+    padding-top: 2px;
+}
+
+#aboutus .wrapper {
+	height: 100%;
 	width: 100%;
 }
-#aboutus .sectionthreends img {
-    width: 100%;
-}
+  
+#aboutus .wrapper {
+	
+	position: relative;
+	
+  }
+
+#aboutus .wrapper:before {
+	content: '';
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	opacity: 0.3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+  }
+
+#aboutus .wrapper-inner {
+	position: relative;
+	z-index: 3;
+	height: 100%;
+  }
+
+#aboutus .box-wrapper {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	margin-top: 40px;
+	z-index: 1;
+  }
+
+#aboutus .box {
+	position: relative;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0 4px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 4px 1px rgba(0,0,0,0.1);
+	width: 380px;
+	background: #fff;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top: 150px;
+  }
+
+#aboutus .box-inner {
+	padding: 30px;
+  }
+
+#aboutus .avatar {
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0 0 0 3px #fcb900 , 0 0 0 8px #636e72;
+	box-shadow: 0 0 0 3px #fcb900 , 0 0 0 8px #636e72;
+	top: -50px;
+	margin-left: -75px;
+	left: 50%;
+	position: absolute;
+  }
+
+#aboutus .avatar img {
+	width: 150px;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	display: block;
+  }
+
+#aboutus .name {
+	font-size: 38px;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 2px;
+	color: #3a3a3a;
+  }
+
+#aboutus .occupation {
+	font-size: 18px;
+	font-style: italic;
+	color: #707070;
+	margin-bottom: 2px;
+  }
+
+#aboutus .location {
+	color: #b3b3b3;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #f2f2f2;
+  }
+
+#aboutus .location .fa {
+	color: #c6c6c6;
+	margin-right: 4px;
+  }
+
+#aboutus .social-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-top: 1px;
+	display: table;
+	margin: 0 auto;
+  }
+  
+#aboutus .social-list > li {
+	padding: 5px;
+	float: left;
+	display: block;
+  }
+
+#aboutus .social-list > li > a {
+	display: block;
+	width: 50px;
+	height: 60px;
+	line-height: 55px;
+	font-size: 28px;
+	text-decoration: none;
+	color: #b3b3b3;
+	border-right: 1px solid #ededed;
+	-webkit-transition: 0.2s;
+	-moz-transition: 0.2s;
+	-o-transition: 0.2s;
+	-ms-transition: 0.2s;
+	transition: 0.2s;
+  }
+
+#aboutus .social-list > li > a:hover {
+	background: #b2bec3;
+	color: #fff;
+  }
+
+
+#aboutus .social-list > li:last-child > a {
+	border-right: none;
+  }
+
+
 
 
 
@@ -320,17 +520,43 @@ body {
 .footer {
 	margin: 0px;
 	text-align: center;
-	color:   #000000;
+	color: #636e72;
 	background-color: #white;
 }
+
 .footer .container {
-	
 	text-align: center;
 	font-size: 20px;
 	font-weight: 100;
 }
-.footer .col-md p {
-	font-size: 25px;
-	font-weight: 200;
+
+.footer .footertext {
+	text-shadow: black;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.footer  p  {
+	font-size: 15px;
+}
+
+.footer .list-group-item {
+	font-size: 15px;
+	text-align: left;
+	font-weight: 100;
+}
+
+.footer hr {
+
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 1px solid #636e72;
+		margin: 1em 0;
+		padding: 0;	
 }
   /*===== footer styling ends here =====*/
+
+
+
+ 
