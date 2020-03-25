@@ -216,6 +216,23 @@ body {
 	width: 100%;
 }
   
+#aboutus .flexcenter {
+	padding-top: 100px;
+	text-align: center;
+	background-image: url("blob-shape.svg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+#aboutus .flexcenter h3 {
+    color: white;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 30px !important;
+	font-weight: 700 !important;
+}
+
+
 #aboutus .wrapper {
 	
 	position: relative;
