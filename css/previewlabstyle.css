@@ -6,7 +6,8 @@ html {
 body {
     background-color: white;
     text-align: center;
-    align-content: center;
+	align-content: center;
+	position: relative;
 }
 
 /* == navbar styling ==*/
@@ -502,7 +503,7 @@ body {
     height: 100vh;
     margin: 0px 0px;
     background-color: black;
-    position: fixed;
+    position: absolute;
 }
 /* ----------- full page loader styling ends ---------- */
 
