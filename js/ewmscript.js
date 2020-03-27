@@ -197,3 +197,4 @@ class WorldMapLocation extends HTMLElement {
 
 customElements.define('world-map', WorldMap);
 customElements.define('world-map-location', WorldMapLocation);
+

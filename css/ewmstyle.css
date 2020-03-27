@@ -2,6 +2,9 @@ body {
     margin: 10px;
     background-color:#2f3542;
 }
+body.modal-open {
+    overflow: inherit;
+}
 
 /*world map*/
 world-map {
@@ -131,9 +134,8 @@ world-map {
 .modal-body {
     color:#dfe6e9;
 }
-.modal {
-    overflow-y:scroll !important;
-}
+
+
 /*=================================*/
 
 /* ======== footer stylling =======*/
