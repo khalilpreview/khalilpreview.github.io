@@ -15,7 +15,9 @@ world-map {
 }
 
 #home {
-    margin: 0px 0px;
+    width: 100%;
+    height: auto;
+    margin: 0px;
 }
 
 #home .container  {
@@ -43,6 +45,18 @@ world-map {
 .col-lg-2 {
     padding-top:50px;
     bottom:0;
+}
+
+.col-lg-3 h1 {
+    font-size: 50px;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #b2bec3;
+}
+
+.col-lg-3 p {
+    font-size: 18px;
+    font-weight: 300;
+    text-shadow: 1px 1px ;
 }
 
 .svg {
@@ -94,6 +108,9 @@ world-map {
 
 .modal-body {
     color:#dfe6e9;
+}
+.modal {
+    overflow-y:scroll !important;
 }
 
 .recovred {
