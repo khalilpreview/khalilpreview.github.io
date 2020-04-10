@@ -423,8 +423,8 @@ select {
    border: 0;
    outline: none;
    vertical-align: middle;
-   min-width: 225px;
-	max-width: 100%;
+   min-width: 500px;
+	max-width: 90%;
    font-size: 15px;
    line-height: 24px;
 	color: #647373;
