@@ -40,8 +40,8 @@
 
       <!-- navbar -->
       <head>
-      <!-- Nav bar start -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <!-- Nav bar start not sticky-top -->
+      <nav class="navbar  navbar-expand-lg navbar-dark bg-dark ">
         <a class="navbar-brand" href="#"><img src="images/logo-previewlab.svg" width="40px"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,7 +50,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#previlabhome">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#previewlabhome">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#services">Services</a>
@@ -58,16 +58,79 @@
             <li class="nav-item">
               <a class="nav-link" href="#aboutus">About-us</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contactus">Contact-us</a>
-            </li>
+            
           </ul>
           <ul class="navbar-nav" align="center">
-            <li class="nav-item navbar-btn-paddig"><a class="btn btn-success" href="#">Join-us</a></li>
-           
-            <li class="nav-item navbar-btn-paddig"><a class="btn btn-danger" href="#">Watch !</a></li>
+            <li class="nav-item navbar-btn-paddig"><a class="btn btn-success" data-toggle="modal" 
+              data-target="#joinusmodal">Join-us</a></li>
+            <li class="nav-item navbar-btn-paddig"><a class="btn btn-danger" 
+              data-toggle="modal" data-target="#hireusmodal">Hire-us</a></li>
           </ul>
           
+          <!-- Modal Join Us -->
+          <div class="modal fade" id="joinusmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Join us</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div>
+                    <form  action=" https://formspree.io/xgenoabo" method="POST">
+                       <div align="center">
+                          <input type="text" id="input-name" placeholder="Complet name" name="name">
+                          <input type="email" id="input-email" placeholder="Email address" name="_replyto">
+                          <input type="text" id="input-phone" placeholder="Phone number" name="phone">
+                          <input type="text" id="input-profession" placeholder="Profession" name="profession">
+                          <input type="text" id="input-portfolio" placeholder="Portfolio link" name="portfolio">
+                       </div>
+                       <div align="center">
+                          <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+                       </div>  
+                       <input type="submit" value="Send" id="input-submit" class="btn btn-outline-success">
+                    </form>
+                 </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Hire Us -->
+          <div class="modal fade" id="hireusmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Hire us</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div>
+                    <form  action="https://formspree.io/mjvonbkp" method="POST">
+                       <div align="center">
+                          <input type="text" id="input-name" placeholder="Complet name" name="name">
+                          <input type="email" id="input-email" placeholder="Email address" name="_replyto">
+                          <input type="text" id="input-phone" placeholder="Phone number" name="phone">
+                          <input type="text" id="input-subject" placeholder="Service you want" name="service">
+                       </div>
+                       <div align="center">
+                          <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+                       </div>  
+                       <input type="submit" value="Send" id="input-submit" class="btn btn-outline-danger">
+                    </form>
+                 </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </nav>
       <!-- Nav bar ends -->
@@ -335,53 +398,15 @@
         </blockquote>
       </div>
     </div>
-    <dic class="row">
+  </div>  
 
-      <!-- WHO WE ARE KHALIL PREVIEW CARD-->
-      <div class="col-lg" align="center">
-
-        <div class="wrapper">
-          <div class="wrapper-inner">
-            <div class="box-wrapper">
-              <div class="box">
-                <div class="avatar">
-                  <img src="images/khalilpreview.png">
-                </div>
-                <div class="box-inner">
-                  <h3 class="name">Khalil Preview</h3>
-                  <h4 class="occupation">Full-Stack Develloper</h4>
-                  <p class="location"><i class="fa fa-map-marker"></i>Mostaganem, Algeria</p>
-                  
-                </div>
-
-                <ul class="social-list">
-                  <li><a href="#"><img src="images/facebook.svg" alt="" width="50px"></a></li>
-                  <li><a href="#"><img src="images/twitter.svg" alt="" width="50px"></a></li>
-                  <li><a href="#"><img src="images/instagram.svg" alt="" width="50px"></a></li>
-                  <li><a href="#"><img src="images/linkedin.svg" alt="" width="50px"></a></li>
-                </ul>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="col-lg flexcenter" >
-        <h3>Are you a Developer<br> or <br> Designer !</h3>
-        <h3>Don't hesitate <br> join us </h3>
-        <br>
-        <button type="button" class="btn btn-outline-success">Join-us</button>
-      </div>
-
-    </dic>
-  </div>
+    
 
   <div class="container" align="center">
     <div class="upbtn">
       <a href="#previewlabhome"><i class="fas fa-angle-double-up"></i></a>
     </div>
+
   </div>
 
 </section>

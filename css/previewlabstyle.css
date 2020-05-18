@@ -123,8 +123,9 @@ body {
 	top:0;
 }
 
-
 /* ============== Section two style ends =========== */
+
+
 
 /* ============== Section three style  =========== */
 #services {
@@ -192,7 +193,7 @@ body {
 #aboutus  .upbtn {
     margin-top: 50px;
     color:white;
-    background-color: #636e72;
+    background-color: #000000;
     width: 50px;
     height: 50px;
     border-radius: 50%;   
@@ -381,6 +382,74 @@ body {
 	border-right: none;
   }
 
+/* ============== Section four style ends =========== */
+
+/* ============== Forms style start =========== */
+form { margin-bottom: 24px; }
+fieldset { margin-bottom: 24px; }
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+   display: block;
+   padding: 18px 15px;
+   margin: 0 0 24px 0;
+   border: 0;
+   outline: none;
+   vertical-align: middle;
+   min-width: 400px;
+	max-width: 70%;
+   font-size: 20px;
+   line-height: 24px;
+	color: #D3D9D9;
+	background: #000000;
+
+}
+
+/* ============== Forms style ends =========== */
+
+/*===== footer styling start here =====*/
+.footer {
+	margin: 0px;
+	text-align: center;
+	color: #636e72;
+	background-color: #white;
+}
+
+.footer .container {
+	text-align: center;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+.footer .footertext {
+	text-shadow: black;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.footer  p  {
+	font-size: 15px;
+}
+
+.footer .list-group-item {
+	font-size: 15px;
+	text-align: left;
+	font-weight: 100;
+}
+
+.footer hr {
+
+		display: block;
+		height: 1px;
+		border: 0;
+		border-top: 1px solid #636e72;
+		margin: 1em 0;
+		padding: 0;	
+}
+  /*===== footer styling ends here =====*/
+
 
 
 
@@ -522,52 +591,11 @@ body {
     height: 100vh;
     margin: 0px 0px;
     background-color: black;
-    position: absolute;
+    position: fixed;
 }
 /* ----------- full page loader styling ends ---------- */
 
 
-
-/*===== footer styling start here =====*/
-.footer {
-	margin: 0px;
-	text-align: center;
-	color: #636e72;
-	background-color: #white;
-}
-
-.footer .container {
-	text-align: center;
-	font-size: 20px;
-	font-weight: 100;
-}
-
-.footer .footertext {
-	text-shadow: black;
-	font-size: 20px;
-	font-weight: 800;
-}
-
-.footer  p  {
-	font-size: 15px;
-}
-
-.footer .list-group-item {
-	font-size: 15px;
-	text-align: left;
-	font-weight: 100;
-}
-
-.footer hr {
-
-		display: block;
-		height: 1px;
-		border: 0;
-		border-top: 1px solid #636e72;
-		margin: 1em 0;
-		padding: 0;	
-}
-  /*===== footer styling ends here =====*/
 
 
 
