@@ -9861,3 +9861,14 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
     border-radius: 4px;
   }
 }
+
+button  {
+  margin-top: 50px;
+  color: #434E5E;
+  background-color:  transparent;
+  font-size:30px;
+  font-weight: 700;
+  text-decoration: black;
+  
+  border: none;
+}
